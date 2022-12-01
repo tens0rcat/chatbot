@@ -40,6 +40,9 @@ def handle_bang_commands(_user, _cmd, words):
     elif _cmd == "walrus":
         reply(_user + " is the walrus.")
 
+    elif _cmd == "tron":
+        reply("Catbot5000 fights for the users.")
+
     else:
         reply("What you talkin about " + _user + "?")
 
